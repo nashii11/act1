@@ -1,0 +1,59 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background: #0d0d0d; /* black */
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.profile-card {
+    background: #1a1a1a; /* dark gray */
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid #ff1a1a;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+}
+
+/* Title */
+.profile-card h2 {
+    color: #ff1a1a;
+    margin-bottom: 15px;
+}
+
+/* Name */
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Info text */
+.info p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+/* Highlight */
+.highlight {
+    color: #ff1a1a;
+    font-weight: bold;
+}
+
+/* Hobby */
+.hobby-list {
+    color: #ff4d4d;
+}
